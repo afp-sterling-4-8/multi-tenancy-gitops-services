@@ -37,7 +37,7 @@ ibm-sfg-prod:
     runAsUser: 1010
   dataSetup:
     enabled: false
-    upgrade: false
+    upgrade: true
   env:
     tz: "UTC"
     license: "accept"
