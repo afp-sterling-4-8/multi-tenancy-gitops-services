@@ -9,5 +9,4 @@ dependencies:
     repository: https://charts.cloudnativetoolkit.dev
   - name: ibm-sfg-prod
     version: 2.1.0
-    repository: https://hollisc.github.io/gitops-testing
-
+    repository: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm
