@@ -37,7 +37,7 @@ ibm-sfg-prod:
     runAsUser: 1010
   dataSetup:
     enabled: true
-    upgrade: true
+    upgrade: false
   env:
     tz: "UTC"
     license: "accept"
@@ -64,7 +64,7 @@ ibm-sfg-prod:
     dbPort: 50000
     dbData: B2BIDB
     dbDrivers: db2jcc4.jar
-    dbCreateSchema: false
+    dbCreateSchema: true
     # Name of DB secret
     dbSecret: b2b-db-secret
     #Provide the admin email address
